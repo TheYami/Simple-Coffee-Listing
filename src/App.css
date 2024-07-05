@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    background-color: #111315;
+    height: 1240px;
+}
+
+.cafe-bg{
+    max-width: 100%;
+    background-size: cover;
+}
+
+.content-container{
+    width: 1200px;
+    height: auto;
+    max-width: 90%;
+    background-color: #1B1D1F;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 4rem;
+}
+
+.content{
+    max-width: 90%;
+    margin: 4rem;
+}
+
+.content h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 32px;
+    color: #FEF7EE;
+}
+
+.vector{
+    position: absolute;
+    z-index: -1;
+}
+
+.content .desc{
+    width: 500px;
+}
+
+.content p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #6F757C;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content .btn-container .btn{
+    color: #FEF7EE;
+    padding: 0.5rem;
+    border: none;
+    font-family: "DM Sans", sans-serif ;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.content .btn-container .btn:hover{
+    background: #6F757C;
+}
+
+.card-container{
+    width: 90%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.card-container .card{
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-container .card:hover{
+    transform: translateY(-20px);
+}
+
+.popular{
+    background-color: #F6C768;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container .card img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card-container .card .popular h5{
+    font-size: 10px;
+    font-family: "DM Sans", sans-serif ;
+}
+
+.card-container .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.card-container .price h3{
+    font-size: 16px;
+    color: #FEF7EE;
+    font-family:"DM Sans", sans-serif ; ;
+}
+
+.card-container .price h4{
+    background-color: #BEE3CC;
+    padding: 5px;
+    font-size: 12px;
+    font-family:"DM Sans", sans-serif ; 
+    border-radius: 3px;
+}
+
+.card-container .rate-container{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container .rate{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.card-container .rate .star{
+    width: 25px;
+    margin-right: 2px;
+}
+
+.card-container .rate h4{
+    color: #FEF7EE;
+    font-family:"DM Sans", sans-serif ; 
+}
+
+.card-container .rate .votes{
+    color: #6F757C;
+    font-family:"DM Sans", sans-serif ; 
+}
+
+.rate-container h3{
+    color: #ED735D;
+    font-family:"DM Sans", sans-serif ; 
+    font-size: 14px;
+}
